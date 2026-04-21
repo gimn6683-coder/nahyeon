@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - Boundray
   - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
