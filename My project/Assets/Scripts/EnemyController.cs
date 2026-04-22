@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float moveSpeed = 3f;
+    public float moveSpeed = 10f;
 
     private Rigidbody2D rb;
     private bool isMovingRight = true;
@@ -29,7 +29,7 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Boundray"))
+        if (collision.CompareTag("Boundary"))
         {
             isMovingRight = !isMovingRight;
         }

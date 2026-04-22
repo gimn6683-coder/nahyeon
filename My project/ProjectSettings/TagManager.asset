@@ -4,12 +4,13 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ' Boundary'
   - 'Enemy '
   - Obstacle
-  - Boundray
   - Enemy
   - Item
+  - Boundary
+  - banana
+  - apple
   layers:
   - Default
   - TransparentFX
